@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.logo img{
+    width: 40px;
+    padding-left: 40px;
+   
+}
+
+.parent{
+    padding: 30px;
+    display: flex;
+}
+#job{
+    font-size: 16px;
+    text-align: center;
+    border: 2px  solid black;
+    margin-left: 35px;
+width: 300px;
+}
+#cntry{
+    font-size: 16px;
+overflow: scroll;
+    border: 2px solid black;
+    width: 300px;
+
+}
+#btn{
+    font-weight: 600;
+    border: 2px solid black;
+    width: 150px;
+    color: #fff;
+    background-color: #000000;
+transition: 1s;
+}
+#btn:hover{
+color: #000000;
+background-color: #fff; 
+font-size: larger; 
+}
+
+
+.back{
+    position: relative;
+
+}
+
+.back img{
+    width: 100%;
+    height: 70vh;
+}
+.para{
+    position: absolute;
+    top: 50%; 
+    margin-left: 70px;
+font-family: Arial, Helvetica, sans-serif;
+    /* transform: translateX(50%); */
+    color: white;
+    font-size: 24px;
+}
+.contant{
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px grey;
+    padding: 30px;
+    margin: 60px;
+    position: absolute;
+    bottom: -220%;
+    left: 0;
+    /* transform: translateX(50%); */
+
+}
+.contant h3{
+    
+    font-size: 16px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.contant p{
+font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+}
+#direct{
+    text-align: center;
+    font-size: 20px;
+
+    font-weight: 600;
+}
+.btn2 button{
+font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    transition: 1s;
+}
+.btn2 button:hover{
+color: #000000;
+background-color: #fff;
+box-shadow: 0 3px 3px 2px grey;
+outline: chocolate;
+font-size: 18px;
+font-weight: bold;
+}
+/*  */
+
+.similar{
+    margin-top: 70%;
+    padding: 60px;
+    font-size: 22px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+
+}
+/*  */
+.direct{
+font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 50px;
+    display:flex;
+    justify-content: space-around;
+
+
+}
+.direct1{
+    box-shadow: 0 0 10px 5px grey;
+padding: 20px;
+width: 220px;
+height: 40vh;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.direct1 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#pen{
+    margin-top: 5px;
+    color: rgb(84, 78, 78);
+}
+/*  */
+::selection{
+    color:white;
+    background-color:black;
+}
+/*  */
+.linkss{
+    display: flex;
+    margin-top: 5%;
+    padding: 10px;
+}
+.arrow:hover{
+    color: blue;
+    cursor: pointer;
+}
+/*  */
+
+.dropdown{
+    margin: 5%;
+    position: relative;
+    display: inline-block;
+}
+.adds{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #a39797;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.adds a{
+    
+   
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+/* footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    margin-top: 5%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #888;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.social-links li a:hover{
+    color: blue;
+  
+}
+
+
+
+.quick-links {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 5px;
+}
+
+.quick-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newsletter-form input[type="email"],
+.newsletter-form button {
+    padding: 8px;
+    border: none;
+    font-size: 14px;
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1;
+}
+
+.newsletter-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+/* footer */
